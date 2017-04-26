@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+// font variables
+$fjalla: 'Fjalla One';
+$poppins: 'Poppins';
+$heavy_fontweight: 700;
+$light_fontweight: 300;
+$nav_color: #2a2a2a;
+$light_fontcolor: #b5b4b4;
+
+$header_fontsize: 4.5rem;
+$subhead_fontsize: 2.5rem;
+$paragraph_fontsize: 1.25rem;
+$h3_fontsize: 1.75rem;
+$h4_fontsize: 3.5rem;
+
+h1 {
+  font-size: $header_fontsize;
+}
+
+h2 {
+  font-size: $subhead_fontsize;
+}
+
+h3 {
+  font-size: $h3_fontsize;
+}
+
+h4 {
+  font-size: $h4_fontsize;
+}
+
+p {
+  font-size: $paragraph_fontsize;
+}
+
+// colors
+$lightbackground: #f3f1f1;
+$darkbackground: #2a2a2a;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+// container
+.container {
+  display: flex;
+}
+
+// left_fixed
+.left_fixed {
+  width: calc(40vw - 4%);
+  height: 100vh;
+  position: fixed;
+  background: $lightbackground;
+  margin-left: 4%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+// centerbox
+.centerbox {
+  width: 80%;
+  height: 75%;
+  margin: 0 auto;
+}
+
+// right_scroll
+.right_scroll {
+  width: 60vw;
+  position: absolute;
+  right: 0;
+
+  .centerbox {
+    margin: 0;
+    width: 100%;
+  }
+}

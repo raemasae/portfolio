@@ -1,0 +1,52 @@
+.site-navigation {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  background: $darkbackground;
+
+  .menu {
+    display: none;
+  }
+}
+
+ul {
+  padding: 0.5rem 0;
+  text-align: center;
+
+  li {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+
+    a {
+      display: block;
+      padding: 0.2rem 0.75rem 0.1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: $heavy_fontweight;
+      color: $lightbackground;
+    }
+
+    a:hover {
+      // background: #fcfcfc;
+    }
+  }
+}
+
+.side_nav {
+  position: fixed;
+  z-index: 2;
+  top: 225px;
+  left: -15px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: $paragraph_fontsize;
+  }
+}

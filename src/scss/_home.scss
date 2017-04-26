@@ -1,0 +1,76 @@
+.home_intro {
+  z-index: 1;
+  position: absolute;
+  left: -37px;
+  top: 30px;
+
+  h1 {
+    font-weight: $heavy_fontweight;
+    // margin-left: 5px;
+    line-height: 1.25;
+
+    span {
+      font-weight: $light_fontweight;
+      font-size: $subhead_fontsize;
+      margin-left: -10px;
+    }
+  }
+
+  h2 {
+    margin-left: 3px;
+    letter-spacing: -1px;
+    line-height: 0;
+
+    span {
+      font-weight: $light_fontweight;
+      font-size: $subhead_fontsize;
+    }
+  }
+}
+
+.centerbox {
+  margin-top: 125px;
+
+  .home_left {
+    p {
+      line-height: 1.2;
+
+      span {
+        font-weight: $heavy_fontweight;
+        font-size: $paragraph_fontsize;
+      }
+    }
+
+    .home_left_statement {
+      margin-top: 135px;
+
+      h3 {
+        font-family: $fjalla;
+        text-transform: uppercase;
+        line-height: 1;
+        color: $light_fontcolor;
+      }
+
+      h4 {
+        margin-top: 20px;
+        font-family: $fjalla;
+        text-transform: uppercase;
+        line-height: 0.95;
+      }
+    }
+
+    &_contact {
+      margin-top: 40px;
+
+      span {
+        margin-left: 15px;
+      }
+
+      .email {
+        font-size: $paragraph_fontsize;
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}

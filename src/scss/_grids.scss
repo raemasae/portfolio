@@ -1,0 +1,48 @@
+.home_grids {
+  margin: 0 5%;
+
+  &_verticalBoxes {
+    width: calc(50% - 2.5%);
+    padding-top: 60%;
+    background: grey;
+    float: left;
+    margin-top: 5%;
+    background-image: url('src/images/regular-image.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  &_horizontalBoxes {
+    width: calc(50% - 2.5%);
+    padding-top: 40%;
+    background: blue;
+    float: right;
+    margin-top: 5%;
+    background-image: url('src/images/regular-image.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  &_verticalBoxes.one {
+    margin-top: 15%;
+  }
+
+  &_horizontalBoxes.three {
+    width: calc(40% - 2.5%);
+    padding-top: 33%;
+  }
+
+  &_verticalBoxes.four {
+    width: calc(40% - 2.5%);
+    padding-top: 60%;
+  }
+
+  &_horizontalBoxes.five {
+    width: calc(60% - 2.5%);
+    padding-top: 35%;
+  }
+
+  &_horizontalBoxes.seven {
+    float: left;
+  }
+}
