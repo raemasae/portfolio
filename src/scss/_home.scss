@@ -1,7 +1,7 @@
 .home_intro {
   z-index: 1;
   position: absolute;
-  left: -37px;
+  left: -30px;
   top: 30px;
 
   h1 {
@@ -17,7 +17,7 @@
   }
 
   h2 {
-    margin-left: 3px;
+    margin-left: 2px;
     letter-spacing: -1px;
     line-height: 0;
 
@@ -29,11 +29,11 @@
 }
 
 .centerbox {
-  margin-top: 125px;
+  margin-top: 40px;
 
   .home_left {
     p {
-      line-height: 1.2;
+      line-height: 1.25;
 
       span {
         font-weight: $heavy_fontweight;
@@ -42,20 +42,20 @@
     }
 
     .home_left_statement {
-      margin-top: 135px;
+      margin-top: 150px;
 
       h3 {
         font-family: $fjalla;
         text-transform: uppercase;
-        line-height: 1;
+        line-height: 1.1;
         color: $light_fontcolor;
       }
 
       h4 {
-        margin-top: 20px;
+        margin-top: 15px;
         font-family: $fjalla;
         text-transform: uppercase;
-        line-height: 0.95;
+        line-height: 0.99;
       }
     }
 
