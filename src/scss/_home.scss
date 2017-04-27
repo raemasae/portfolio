@@ -1,8 +1,8 @@
 .home_intro {
   z-index: 1;
   position: absolute;
-  left: -30px;
-  top: 30px;
+  left: -$base_margin;
+  top: $base_margin;
 
   h1 {
     font-weight: $heavy_fontweight;

@@ -1,0 +1,16 @@
+.subpage_main {
+  h2,
+  .subpage_main_content_category {
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-family: $fjalla;
+    line-height: 1;
+  }
+
+  .subpage_main_content_category {
+    font-weight: $heavy_fontweight;
+    margin-bottom: 20px;
+  }
+}

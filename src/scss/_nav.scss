@@ -1,24 +1,12 @@
-.site-navigation {
+.toggle {
   position: fixed;
   z-index: 1;
   bottom: 0;
-  width: 100%;
   background: $darkbackground;
+  width: 100%;
+  // right: 0;
 
-  .menu {
-    display: none;
-  }
-}
-
-ul {
-  padding: 0.5rem 0;
-  text-align: center;
-
-  li {
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-
+  .toggle_button {
     a {
       display: block;
       padding: 0.2rem 0.75rem 0.1rem;
@@ -26,10 +14,26 @@ ul {
       text-transform: uppercase;
       font-weight: $heavy_fontweight;
       color: $lightbackground;
+      text-align: center;
     }
+  }
 
-    a:hover {
-      // background: #fcfcfc;
+  ul {
+    display: none;
+  }
+}
+
+.toggle.open {
+  ul {
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      color: $light_fontcolor;
+      font-weight: $light_fontweight;
     }
   }
 }
@@ -53,8 +57,8 @@ ul {
 
 .hamburger_home {
   position: fixed;
-  top: 40px;
-  left: 30px;
+  top: 60px;
+  left: $base_margin;
   z-index: 2;
 
   &_ra {
