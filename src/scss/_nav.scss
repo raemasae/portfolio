@@ -50,3 +50,31 @@ ul {
     font-size: $paragraph_fontsize;
   }
 }
+
+.hamburger_home {
+  position: fixed;
+  top: 40px;
+  left: 30px;
+  z-index: 2;
+
+  &_ra {
+    font-weight: $heavy_fontweight;
+    font-size: 2.75rem;
+    text-decoration: none;
+    letter-spacing: -6px;
+    color: $nav_color;
+    line-height: 0;
+  }
+
+  .toggle_button {
+    margin: 3px;
+
+    span {
+      display: block;
+      width: 52px;
+      height: 8px;
+      background-color: $nav_color;
+      margin: 0.19rem 0;
+    }
+  }
+}
