@@ -29,7 +29,9 @@
 }
 
 .centerbox {
-  margin-top: 40px;
+  position: absolute;
+  left: 30px;
+  top: 120px;
 
   .home_left {
     p {
@@ -73,4 +75,8 @@
       }
     }
   }
+}
+
+.centerbox.right {
+  position: static;
 }
