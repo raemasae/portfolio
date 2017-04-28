@@ -52,6 +52,12 @@ $darkbackground: #2a2a2a;
 // margins
 $base_margin: 30px;
 
+@mixin links {
+  color: $nav_color;
+  font-weight: $heavy_fontweight;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

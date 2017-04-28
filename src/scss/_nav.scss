@@ -3,18 +3,18 @@
   z-index: 1;
   bottom: 0;
   background: rgba(42, 42, 42, 0.85);
-  width: 100%;
-  // right: 0;
+  width: 60vw;
+  right: 0;
+  text-align: center;
 
   .toggle_button {
     a {
-      display: block;
-      padding: 0.4rem 0;
+      display: inline-flex;
+      padding: 0.4rem 2rem;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: $heavy_fontweight;
       color: $lightbackground;
-      text-align: center;
     }
   }
 
@@ -60,8 +60,18 @@
 .hamburger_home {
   position: fixed;
   top: 60px;
-  left: $base_margin;
+  left: 45px;
   z-index: 2;
+
+  .arrow {
+    @include links;
+
+    font-size: 3.5rem;
+    line-height: 0;
+    position: absolute;
+    left: -29px;
+    bottom: 9px;
+  }
 
   &_ra {
     font-weight: $heavy_fontweight;
@@ -70,17 +80,5 @@
     letter-spacing: -6px;
     color: $nav_color;
     line-height: 0;
-  }
-
-  .toggle_button {
-    margin: 3px;
-
-    span {
-      display: block;
-      width: 52px;
-      height: 8px;
-      background-color: $nav_color;
-      margin: 0.19rem 0;
-    }
   }
 }
