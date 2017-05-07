@@ -7,9 +7,6 @@
     background: grey;
     float: left;
     margin-top: 5%;
-    background-image: url('src/images/regular-image.png');
-    background-size: cover;
-    background-position: center;
   }
 
   &_horizontalBoxes {
@@ -18,9 +15,6 @@
     background: blue;
     float: right;
     margin-top: 5%;
-    background-image: url('src/images/regular-image.png');
-    background-size: cover;
-    background-position: center;
   }
 
   &_verticalBoxes.one {
@@ -30,11 +24,19 @@
   &_horizontalBoxes.three {
     width: calc(40% - 2.5%);
     padding-top: 33%;
+    background-image: url("images/RachelArimoto_IKEAlogo_Page_1.png");
+    background-size: 130%;
+
+    @include image_background;
   }
 
   &_verticalBoxes.four {
     width: calc(40% - 2.5%);
     padding-top: 60%;
+    background-image: url("images/RachelArimoto_Olympic Pictograms_Page_2.png");
+    background-size: 150%;
+
+    @include image_background;
   }
 
   &_horizontalBoxes.five {
@@ -44,5 +46,9 @@
 
   &_horizontalBoxes.seven {
     float: left;
+    background-image: url(images/RachelArimoto_CityLogo_bw.png);
+    background-size: 120%;
+
+    @include image_background;
   }
 }
