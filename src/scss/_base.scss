@@ -10,12 +10,12 @@ $nav_color: #2a2a2a;
 $light_fontcolor: #b5b4b4;
 $medium_fontcolor: #616060;
 
-$header_fontsize: 3.2rem;
+$header_fontsize: 2.5rem;
 $subhead_fontsize: 1.8rem;
-$paragraph_fontsize: 1rem;
+$paragraph_fontsize: 0.93rem;
 $h3_fontsize: 1.6rem;
 $h4_fontsize: 4.2rem;
-$caption_fontsize: 0.8rem;
+$caption_fontsize: 0.75rem;
 $small_fontsize: 0.65rem;
 
 h1,
@@ -82,6 +82,14 @@ $base_margin: 30px;
   font-size: $small_fontsize;
   top: -6px;
 }
+
+@mixin view_links {
+  color: $nav_color;
+  font-family: $fjalla;
+  font-size: 0.8rem;
+}
+
+//base layout style
 
 * {
   box-sizing: border-box;

@@ -5,26 +5,15 @@
   top: $base_margin;
 
   h1 {
-    font-weight: $heavy_fontweight;
-    // margin-left: 5px;
-    line-height: 1.25;
-
-    span {
-      font-weight: $light_fontweight;
-      font-size: $subhead_fontsize;
-      margin-left: -10px;
-    }
+    line-height: 1.6;
+    letter-spacing: -1px;
+    font-weight: $light_fontweight;
   }
 
   h2 {
-    margin-left: 2px;
     letter-spacing: -1px;
     line-height: 0;
-
-    span {
-      font-weight: $light_fontweight;
-      font-size: $subhead_fontsize;
-    }
+    font-size: $header_fontsize;
   }
 }
 
@@ -51,7 +40,7 @@
     }
 
     .home_left_intro {
-      margin-top: 70px;
+      margin-top: 80px;
 
       p {
         text-align: left;

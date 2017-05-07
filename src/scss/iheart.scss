@@ -1,3 +1,4 @@
+
 .subpage_main_image.iheart_image {
   background-image: url("images/iheart_mockup.png");
   height: 350px;
@@ -8,6 +9,10 @@
 
 .subpage_main_content {
   position: relative;
+
+  a {
+    @include view_links;
+  }
 }
 
 .subpage_subimages {
@@ -55,23 +60,6 @@
   background: antiquewhite;
   padding: 5rem 0;
   position: relative;
-
-  .subpage_image_scroll {
-    position: absolute;
-    bottom: 50%;
-    right: 3%;
-    height: 50;
-    width: 50px;
-    border-radius: 50px;
-    background: white;
-    text-align: center;
-    box-shadow: -3px 0 #0e0e0e;
-
-    h2 {
-      margin-left: 2px;
-      margin-top: 2px;
-    }
-  }
 
   img {
     width: calc(30% - 2%);
