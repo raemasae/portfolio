@@ -16,6 +16,7 @@ $paragraph_fontsize: 1rem;
 $h3_fontsize: 1.6rem;
 $h4_fontsize: 4.2rem;
 $caption_fontsize: 0.8rem;
+$small_fontsize: 0.65rem;
 
 h1,
 h2,
@@ -66,6 +67,22 @@ $base_margin: 30px;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 
+@mixin image_captions_background {
+  border-bottom: 1px solid black;
+  position: relative;
+  width: 40%;
+}
+
+@mixin image_captions {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  padding: 0.5rem;
+  line-height: 0;
+  font-size: $small_fontsize;
+  top: -6px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -88,6 +105,7 @@ $base_margin: 30px;
   display: flex;
   flex-flow: column;
   justify-content: center;
+  border-right: 1px solid #e0dfdf;
 }
 
 // centerbox

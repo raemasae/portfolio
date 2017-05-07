@@ -42,11 +42,14 @@
   &_horizontalBoxes.five {
     width: calc(60% - 2.5%);
     padding-top: 35%;
+    background-image: url("images/iheart_mockup.jpg");
+    background-size: 155%;
+    background-position: center;
   }
 
   &_horizontalBoxes.seven {
     float: left;
-    background-image: url(images/RachelArimoto_CityLogo_bw.png);
+    background-image: url("images/RachelArimoto_CityLogo_bw.png");
     background-size: 120%;
 
     @include image_background;
