@@ -17,19 +17,20 @@
     margin-top: 5%;
   }
 
-  &_horizontalBoxes.two {
-    background-image: url("images/smithsonian_test.jpg");
-    background-size: 100%;
-    background-color: transparent;
-    background-position: center;
-  }
-
   &_verticalBoxes.one {
-    margin-top: 15%;
+    margin-top: 13%;
     background-image: url("images/alterego_laptop.jpg");
     background-size: cover;
     background-position: center;
     transform: scale(1.1);
+  }
+
+  &_horizontalBoxes.two {
+    padding-top: 33%;
+    background-image: url("images/boxesFront.jpg");
+    background-size: 130%;
+
+    @include image_background;
   }
 
   &_horizontalBoxes.three {
@@ -55,6 +56,13 @@
     padding-top: 35%;
     background-image: url("images/iheart_mockup.jpg");
     background-size: 155%;
+    background-position: center;
+  }
+
+  &_horizontalBoxes.six {
+    background-image: url("images/smithsonian_test.jpg");
+    background-size: 100%;
+    background-color: transparent;
     background-position: center;
   }
 
