@@ -89,6 +89,28 @@ $base_margin: 30px;
   font-size: 0.8rem;
 }
 
+@mixin large_closeup_spacing {
+  width: 60%;
+}
+
+@mixin oneimage_spacing {
+  width: 60%;
+}
+
+@mixin twoimage_spacing {
+  width: calc(45% - 2%);
+  margin-right: 15px;
+}
+
+@mixin threeimage_spacing {
+  width: calc(30% - 2%);
+  margin-right: 15px;
+}
+
+@mixin image_spacing_last {
+  margin-right: 0;
+}
+
 //base layout style
 
 * {
@@ -127,6 +149,7 @@ $base_margin: 30px;
   width: 60vw;
   position: absolute;
   right: 0;
+  margin-bottom: 3rem;
 
   .centerbox {
     margin: 0;

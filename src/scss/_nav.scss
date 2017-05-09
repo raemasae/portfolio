@@ -59,9 +59,10 @@
 
 .hamburger_home {
   position: fixed;
+  width: 60px;
   top: 60px;
   left: 45px;
-  z-index: 2;
+  z-index: 3;
 
   .arrow {
     @include links;
