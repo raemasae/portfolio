@@ -25,6 +25,14 @@
     background-repeat: no-repeat;
   }
 
+  &_verticalBoxes.one.ten {
+    float: left;
+    background-image: url("images/12thman_cover.jpg");
+    background-size: 150%;
+    background-position: center;
+    margin-top: 2%;
+  }
+
   &_horizontalBoxes.two {
     padding-top: 33%;
     background-image: url("images/boxesFront.jpg");
@@ -98,6 +106,13 @@
     background-image: url("images/hiblend_laptop.png");
     box-shadow: none;
     background-size: 130%;
+    background-position: center;
+  }
+
+  .eleven {
+    background-image: url("images/htc_desktop.png");
+    box-shadow: none;
+    transform: scale(1.2);
     background-position: center;
   }
 }

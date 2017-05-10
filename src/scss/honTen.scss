@@ -1,17 +1,33 @@
-.subpage_subimages.ikea1 {
-  background-image: url("images/ikea_branding2.jpg");
-  height: 500px;
-  background-size: cover;
+.honTennis {
+  img {
+    transform: scale(1.2);
+  }
+}
+
+.subpage_subimages.honTennis1 {
+  background-image: url("images/honTennis_nomug.png");
+  height: 300px;
+  background-size: contain;
   background-position: center;
-  transform: scale(1);
+  background-repeat: no-repeat;
+  transform: scale(1.3);
   margin-bottom: 3rem;
 }
 
-.ikea2 {
-  img {
-    width: 90%;
-    margin-bottom: 3rem;
+.subpage_subimages.two.honTennis2 {
+  background: #f2f5f5;
+  padding: 3rem 0;
+  margin-right: 0;
+  text-align: center;
 
+  img {
+    @include twoimage_spacing;
     @include image_background;
+
+    vertical-align: top;
+  }
+
+  img:last-of-type {
+    margin-right: 0;
   }
 }

@@ -154,5 +154,18 @@ $base_margin: 30px;
   .centerbox {
     margin: 0;
     width: 100%;
+
+    .next_button {
+      text-align: right;
+
+      .next {
+        @include view_links;
+
+        position: fixed;
+        bottom: 5%;
+        right: 3%;
+        z-index: 1;
+      }
+    }
   }
 }
