@@ -61,10 +61,8 @@ $base_margin: 30px;
 }
 
 @mixin image_background {
-  // background-color: #f4f4f5;
-  // background-blend-mode: multiply;
   background-position: center;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @mixin image_captions_background {
@@ -111,6 +109,23 @@ $base_margin: 30px;
   margin-right: 0;
 }
 
+@mixin grid_hover {
+  position: relative;
+  transition: background-color 0.5s;
+  z-index: 1;
+}
+
+@mixin grid_hover_label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  font-size: 2rem;
+  opacity: 0;
+}
+
 //base layout style
 
 * {
@@ -118,6 +133,7 @@ $base_margin: 30px;
   margin: 0;
   font-family: Poppins, Helvetica, Arial, sans-serif;
   font-size: 16px;
+  background-repeat: no-repeat;
 }
 
 // container
