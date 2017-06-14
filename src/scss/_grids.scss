@@ -26,13 +26,13 @@
     @include grid_hover;
 
     .one_label {
-      padding-top: 98%;
-
       @include grid_hover_label;
+
+      bottom: -60%;
     }
 
     .one_label.details {
-      top: 88%;
+      bottom: -69%;
     }
   }
 
@@ -47,14 +47,13 @@
     @include grid_hover;
 
     .one_label {
-      padding-top: 75%;
-
       @include grid_hover_label;
+
+      bottom: -53%;
     }
 
     .details {
-      font-size: 1rem;
-      top: 13%;
+      bottom: -64%;
     }
   }
 
@@ -66,14 +65,16 @@
 
     @include grid_hover;
 
-    .one_label {
-      padding-top: 42%;
+    .border-test {
+      .one_label {
+        bottom: -54%;
 
-      @include grid_hover_label;
-    }
+        @include grid_hover_label;
+      }
 
-    .one_label.details {
-      top: 79%;
+      .one_label.details {
+        bottom: -69%;
+      }
     }
   }
 
@@ -86,14 +87,16 @@
     @include image_background;
     @include grid_hover;
 
-    .one_label {
-      padding-top: 49%;
+    .border-test {
+      .one_label {
+        @include grid_hover_label;
 
-      @include grid_hover_label;
-    }
+        bottom: -54%;
+      }
 
-    .details {
-      top: 79%;
+      .details {
+        bottom: -71%;
+      }
     }
   }
 
@@ -108,14 +111,14 @@
     @include grid_hover;
 
     .one_label {
-      padding-top: 113%;
-      line-height: 1;
+      line-height: 0.9;
+      bottom: -50%;
 
       @include grid_hover_label;
     }
 
     .one_label.details {
-      top: 89%;
+      bottom: -61%;
     }
   }
 
@@ -124,18 +127,20 @@
     padding-top: 35%;
     background: rgba(0, 0, 0, 0) url("images/iheart_mockup.jpg") no-repeat;
     background-size: 155%;
-    background-position: -130px center;
+    background-position: 59%;
 
     @include grid_hover;
 
-    .one_label {
-      padding-top: 40%;
+    .border-test {
+      .one_label {
+        bottom: -49%;
 
-      @include grid_hover_label;
-    }
+        @include grid_hover_label;
+      }
 
-    .details {
-      top: 80%;
+      .details {
+        bottom: -65%;
+      }
     }
   }
 
@@ -148,13 +153,13 @@
     @include grid_hover;
 
     .one_label {
-      padding-top: 56%;
-
       @include grid_hover_label;
+
+      bottom: -48%;
     }
 
     .one_label.details {
-      top: 82.5%;
+      bottom: -63%;
     }
   }
 
@@ -167,13 +172,13 @@
     @include grid_hover;
 
     .one_label {
-      padding-top: 57%;
+      bottom: -47%;
 
       @include grid_hover_label;
     }
 
     .details {
-      top: 83%;
+      bottom: -60%;
     }
   }
 
@@ -189,16 +194,18 @@
       width: 100%;
     }
 
-    .one_label {
-      padding-top: 150.5%;
+    .border-test {
+      .one_label {
+        bottom: -51%;
+      }
 
-      .border-test2 {
-        width: 30% !important;
+      .details {
+        bottom: -60%;
       }
     }
 
-    .details {
-      top: 7.5%;
+    .border-test2 {
+      width: 30% !important;
     }
   }
 
@@ -210,6 +217,10 @@
     width: calc(57% - 2.5%);
 
     @include image_background;
+
+    .details {
+      bottom: -66%;
+    }
   }
 
   .nine {
@@ -218,26 +229,27 @@
     box-shadow: none;
     background-size: 130%;
     background-position: center;
+
+    .details {
+      bottom: -69%;
+    }
   }
 
   .two.eleven {
     background: rgba(0, 0, 0, 0) url("images/htc_desktop.png") no-repeat;
     box-shadow: none;
     background-size: 145%;
-    background-position: -82px;
+    background-position: 59%;
     margin-top: 12%;
+    padding-top: 37%;
 
     .one_label {
-      line-height: 1;
-      padding-top: 35.5%;
-
-      .border-test {
-        height: 45% !important;
-      }
+      line-height: 0.9;
+      bottom: -50%;
     }
 
     .details {
-      top: 31%;
+      bottom: -68%;
     }
   }
 
@@ -274,35 +286,42 @@
   .seven:hover {
     background-color: rgba(250, 250, 250, 0.8);
 
-    .one_label {
-      display: block;
-      opacity: 1;
-      transition: all 0.5s ease;
-      margin: 1rem;
-      border-right: 1px solid black;
+    .border-test {
+      position: absolute;
+      border-left: 1px solid black;
       border-top: 1px solid black;
+      height: 50%;
+      width: 85%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 6%;
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
 
-      .border-test {
-        position: absolute;
-        border-left: 1px solid black;
-        height: 60%;
-        top: 0;
+      .one_label {
+        display: block;
+        opacity: 1;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
       }
 
-      .border-test2 {
-        position: absolute;
-        border-bottom: 1px solid black;
-        width: 50%;
-        bottom: 0;
-        right: 0;
+      .one_label.details {
+        border: none;
+        font-size: 1rem;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
       }
     }
 
-    .one_label.details {
-      border: none;
-      margin-left: 1.2rem;
-      opacity: 1;
-      -webkit-transition: all 0.5s ease;
+    .border-test2 {
+      position: absolute;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      width: 50%;
+      height: 88%;
+      bottom: 6%;
+      right: 7.5%;
     }
   }
 }
