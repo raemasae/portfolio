@@ -25,14 +25,16 @@
 
     @include grid_hover;
 
-    .one_label {
-      @include grid_hover_label;
+    .border-test {
+      .one_label {
+        @include grid_hover_label;
 
-      bottom: -60%;
-    }
+        bottom: -60%;
+      }
 
-    .one_label.details {
-      bottom: -69%;
+      .one_label.details {
+        bottom: -69%;
+      }
     }
   }
 
@@ -46,14 +48,16 @@
 
     @include grid_hover;
 
-    .one_label {
-      @include grid_hover_label;
+    .border-test {
+      .one_label {
+        @include grid_hover_label;
 
-      bottom: -53%;
-    }
+        bottom: -53%;
+      }
 
-    .details {
-      bottom: -64%;
+      .details {
+        bottom: -64%;
+      }
     }
   }
 
@@ -110,15 +114,17 @@
     @include image_background;
     @include grid_hover;
 
-    .one_label {
-      line-height: 0.9;
-      bottom: -50%;
+    .border-test {
+      .one_label {
+        line-height: 0.9;
+        bottom: -50%;
 
-      @include grid_hover_label;
-    }
+        @include grid_hover_label;
+      }
 
-    .one_label.details {
-      bottom: -61%;
+      .one_label.details {
+        bottom: -61%;
+      }
     }
   }
 
@@ -152,14 +158,16 @@
 
     @include grid_hover;
 
-    .one_label {
-      @include grid_hover_label;
+    .border-test {
+      .one_label {
+        @include grid_hover_label;
 
-      bottom: -48%;
-    }
+        bottom: -48%;
+      }
 
-    .one_label.details {
-      bottom: -63%;
+      .one_label.details {
+        bottom: -63%;
+      }
     }
   }
 
@@ -171,14 +179,16 @@
 
     @include grid_hover;
 
-    .one_label {
-      bottom: -47%;
+    .border-test {
+      .one_label {
+        bottom: -47%;
 
-      @include grid_hover_label;
-    }
+        @include grid_hover_label;
+      }
 
-    .details {
-      bottom: -60%;
+      .details {
+        bottom: -60%;
+      }
     }
   }
 
@@ -218,8 +228,10 @@
 
     @include image_background;
 
-    .details {
-      bottom: -66%;
+    .border-test {
+      .details {
+        bottom: -66%;
+      }
     }
   }
 
@@ -230,8 +242,10 @@
     background-size: 130%;
     background-position: center;
 
-    .details {
-      bottom: -69%;
+    .border-test {
+      .details {
+        bottom: -69%;
+      }
     }
   }
 
@@ -243,13 +257,15 @@
     margin-top: 12%;
     padding-top: 37%;
 
-    .one_label {
-      line-height: 0.9;
-      bottom: -50%;
-    }
+    .border-test {
+      .one_label {
+        line-height: 0.9;
+        bottom: -50%;
+      }
 
-    .details {
-      bottom: -68%;
+      .details {
+        bottom: -68%;
+      }
     }
   }
 
