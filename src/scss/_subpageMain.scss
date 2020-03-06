@@ -4,6 +4,7 @@
   h2,
   .subpage_main_content_category {
     text-transform: uppercase;
+    font-weight: $light_fontweight;
   }
 
   h2 {
@@ -21,5 +22,9 @@
 
   .subpage_main_content_category {
     margin-bottom: 20px;
+
+    .subpage_content_separator {
+      font-weight: $heavy_fontweight;
+    }
   }
 }

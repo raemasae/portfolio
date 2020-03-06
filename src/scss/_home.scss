@@ -2,36 +2,41 @@
   z-index: 1;
   position: absolute;
   left: -$base_margin;
-  top: $base_margin;
+  top: 25vh;
 
-  h1 {
-    line-height: 1.6;
-    letter-spacing: -1px;
-    font-weight: $heavy_fontweight;
-  }
+  &_home {
+    text-decoration: none;
 
-  h2 {
-    letter-spacing: -1px;
-    line-height: 0;
-    font-size: $header_fontsize;
+    h1 {
+      line-height: 1.9;
+      letter-spacing: -1px;
+      font-weight: $light_fontweight;
+    }
+
+    h2 {
+      letter-spacing: -1px;
+      line-height: 0;
+      font-size: $header_fontsize;
+    }
   }
 }
 
 .centerbox {
   position: absolute;
-  left: 30px;
-  top: 15px;
+  left: 7%;
+  top: 5%;
 
   .home_left {
     display: flex;
     flex-direction: column;
 
     p {
-      line-height: 1.25;
+      line-height: 1.4;
       font-size: $caption_fontsize;
       text-align: right;
-      width: 70%;
+      width: 87%;
       align-self: flex-end;
+      font-weight: $light_fontweight;
 
       span {
         font-weight: $heavy_fontweight;
@@ -40,7 +45,14 @@
     }
 
     .home_left_intro {
-      margin-top: 80px;
+      position: relative;
+      top: 30vh;
+
+      .arrowed {
+        position: relative;
+        top: 18px;
+        left: -14%;
+      }
 
       p {
         text-align: left;
@@ -54,7 +66,8 @@
     }
 
     .home_left_statement {
-      margin-top: 120px;
+      position: relative;
+      top: 30vh;
 
       h3 {
         font-family: $fjalla;
@@ -78,13 +91,17 @@
       .phone {
         text-align: left;
         width: 100%;
-        font-size: $paragraph_fontsize;
+        font-size: $caption_fontsize;
         color: inherit;
 
         span {
-          margin-left: 15px;
-          font-size: $paragraph_fontsize;
+          font-size: $caption_fontsize;
+          font-weight: $heavy_fontweight;
         }
+      }
+
+      .phone {
+        margin-top: 5px;
       }
     }
   }

@@ -40,45 +40,46 @@
   }
 }
 
-.side_nav {
-  position: fixed;
-  z-index: 2;
-  top: 45%;
-  left: -1.5%;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-
-  a {
-    // text-decoration: none;
-    color: inherit;
-    font-size: $paragraph_fontsize;
-  }
-}
+// .side_nav {
+//   position: fixed;
+//   z-index: 2;
+//   top: 45%;
+//   left: -1.5%;
+//   -webkit-transform: rotate(-90deg);
+//   -moz-transform: rotate(-90deg);
+//   -ms-transform: rotate(-90deg);
+//   -o-transform: rotate(-90deg);
+//
+//   a {
+//     // text-decoration: none;
+//     color: inherit;
+//     font-size: $paragraph_fontsize;
+//   }
+// }
 
 .hamburger_home {
   position: fixed;
   width: 60px;
   top: 60px;
   left: 45px;
-  z-index: 3;
+  z-index: 6;
 
   .arrow {
     @include links;
 
     font-size: 3.5rem;
-    line-height: 0;
+    line-height: 36px;
     position: absolute;
     left: -29px;
-    bottom: 15px;
+    bottom: -18px;
+    font-weight: 500;
   }
 
   &_ra {
-    font-weight: $heavy_fontweight;
-    font-size: 2.75rem;
+    font-weight: $light_fontweight;
+    font-size: 2rem;
     text-decoration: none;
-    letter-spacing: -6px;
+    letter-spacing: -2px;
     color: $nav_color;
     line-height: 0;
   }

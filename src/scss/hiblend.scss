@@ -11,8 +11,14 @@
 .subpage_main_content {
   position: relative;
 
-  a {
+  .view {
+    @include view_button;
+  }
+
+  .next {
     @include view_links;
+
+    line-height: 42px;
   }
 }
 

@@ -1,7 +1,8 @@
 .crazylegs {
   img {
     height: 500px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: 0 10px;
   }
 }
 
