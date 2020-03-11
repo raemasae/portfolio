@@ -918,11 +918,9 @@ p {
     left: 20px; }
   .right_scroll {
     width: 100%; }
-    .right_scroll .home_grids .content_hover:focus,
     .right_scroll .home_grids .content_hover:active {
       background-color: rgba(250, 250, 250, 0.8);
       border-bottom: none; }
-      .right_scroll .home_grids .content_hover:focus .border-test,
       .right_scroll .home_grids .content_hover:active .border-test {
         position: absolute;
         border-left: 1px solid black;
@@ -935,21 +933,18 @@ p {
         top: 6%;
         transition: all 0.5s ease;
         -webkit-transition: all 0.5s ease; }
-        .right_scroll .home_grids .content_hover:focus .border-test .one_label,
         .right_scroll .home_grids .content_hover:active .border-test .one_label {
           display: block;
           line-height: 1;
           opacity: 1;
           transition: all 0.5s ease;
           -webkit-transition: all 0.5s ease; }
-        .right_scroll .home_grids .content_hover:focus .border-test .one_label.details,
         .right_scroll .home_grids .content_hover:active .border-test .one_label.details {
           border: none;
           font-size: 1rem;
           -webkit-transition: 0.5s ease;
           transition: 0.5s ease;
           font-weight: 100; }
-      .right_scroll .home_grids .content_hover:focus .border-test2,
       .right_scroll .home_grids .content_hover:active .border-test2 {
         position: absolute;
         border-bottom: 1px solid black;
@@ -958,8 +953,6 @@ p {
         height: 88%;
         bottom: 6%;
         right: 7.5%; }
-      .right_scroll .home_grids .content_hover:focus .content_label,
-      .right_scroll .home_grids .content_hover:focus .content_label_caption,
       .right_scroll .home_grids .content_hover:active .content_label,
       .right_scroll .home_grids .content_hover:active .content_label_caption {
         display: none; } }
