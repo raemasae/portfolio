@@ -160,26 +160,26 @@ p {
 .hamburger_home {
   position: fixed;
   width: 60px;
-  top: 60px;
+  top: 7vw;
   left: 45px;
-  z-index: 6; }
+  z-index: 6;
+  height: 36px; }
   .hamburger_home .arrow {
     color: #2a2a2a;
     font-weight: 700;
     text-decoration: none;
-    font-size: 3.5rem;
+    font-size: calc(20px + 2vw);
     line-height: 36px;
     position: absolute;
-    left: -29px;
-    bottom: -18px;
+    left: -25px;
     font-weight: 500; }
   .hamburger_home_ra {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: calc(18px + 1vw);
     text-decoration: none;
     letter-spacing: -2px;
     color: #2a2a2a;
-    line-height: 0; }
+    line-height: 36px; }
 
 .home_intro {
   z-index: 1;
@@ -263,7 +263,7 @@ p {
   display: grid;
   grid-template-columns: calc(33% - 1.5%) calc(33% - 1.5%) calc(33% - 1.5%);
   grid-column-gap: 3%;
-  grid-template-areas: "grid_hiblend grid_hiblend grid_onemile" "grid_iheart grid_alterego grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea"; }
+  grid-template-areas: "grid_hiblend grid_hiblend grid_hp" "grid_cmc grid_ike grid_ike" "grid_tp grid_tp grid_onemile" "grid_iheart grid_alterego grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea"; }
   .home_grids .grid_hiblend,
   .home_grids .grid_onemile,
   .home_grids .grid_iheart,
@@ -278,6 +278,14 @@ p {
     height: 450px; }
   .home_grids .grid_hiblend {
     grid-area: grid_hiblend; }
+  .home_grids .grid_hp {
+    grid-area: grid_hp; }
+  .home_grids .grid_cmc {
+    grid-area: grid_cmc; }
+  .home_grids .grid_ike {
+    grid-area: grid_ike; }
+  .home_grids .grid_tp {
+    grid-area: grid_tp; }
   .home_grids .grid_onemile {
     grid-area: grid_onemile; }
   .home_grids .grid_iheart {
@@ -300,32 +308,40 @@ p {
     margin-top: 30px; }
   .home_grids_content:nth-child(-n+2) {
     margin-top: 0; }
-  .home_grids_content:nth-child(n+5) {
+  .home_grids_content:nth-child(n+9) {
     margin-top: 30%; }
   .home_grids_content.grid_sugarfaced {
     margin-top: 14.5%; }
   .home_grids_content_one {
-    background: transparent url("src/images/hiblend_laptop.png") no-repeat; }
+    background: transparent url("images/hiblend_laptop.png") no-repeat; }
+  .home_grids_content_one.one-cmc {
+    background: transparent url("images/cmc_portfolio.png") no-repeat; }
+  .home_grids_content_one.one-ike {
+    background: transparent url("images/ike_display.png") no-repeat; }
   .home_grids_content_two {
-    background: transparent url("src/images/onemile_display.png") no-repeat; }
+    background: transparent url("images/onemile_display.png") no-repeat; }
+  .home_grids_content_two.two-hp {
+    background: transparent url("images/healthpersonas_portfolio.png") no-repeat; }
+  .home_grids_content_two.two-tp {
+    background: transparent url("images/teampraxis_portfolio.png") no-repeat; }
   .home_grids_content_three {
-    background: transparent url("src/images/iheart_mockup.png") no-repeat; }
+    background: transparent url("images/iheart_mockup.jpg") no-repeat; }
   .home_grids_content_four {
-    background: transparent url("src/images/alterego_laptop.png") no-repeat; }
+    background: transparent url("images/alterego_laptop.png") no-repeat; }
   .home_grids_content_eleven {
-    background: transparent url("src/images/htc_desktop.png") no-repeat; }
+    background: transparent url("images/htc_desktop.png") no-repeat; }
   .home_grids_content_five {
-    background: transparent url("src/images/boxesFront.jpg") no-repeat; }
+    background: transparent url("images/boxesFront.jpg") no-repeat; }
   .home_grids_content_six {
-    background: transparent url("src/images/RachelArimoto_IKEAlogo_Page_1.png") no-repeat; }
+    background: transparent url("images/RachelArimoto_IKEAlogo_Page_1.png") no-repeat; }
   .home_grids_content_seven {
-    background: transparent url("src/images/RachelArimoto_Olympic Pictograms_Page_2.png") no-repeat; }
+    background: transparent url("images/RachelArimoto_Olympic Pictograms_Page_2.png") no-repeat; }
   .home_grids_content_eight {
-    background: transparent url("src/images/smithsonian_test.jpg") no-repeat; }
+    background: transparent url("images/smithsonian_test.jpg") no-repeat; }
   .home_grids_content_nine {
-    background: transparent url("src/images/crazylegs3.gif") no-repeat; }
+    background: transparent url("images/crazylegs3.gif") no-repeat; }
   .home_grids_content_twelve {
-    background: transparent url("src/images/12thman_cover.jpg") no-repeat; }
+    background: transparent url("images/12thman_cover.jpg") no-repeat; }
   .home_grids .content_tall {
     height: 450px; }
   .home_grids_content_one, .home_grids_content_two, .home_grids_content_three, .home_grids_content_four, .home_grids_content_five, .home_grids_content_six, .home_grids_content_seven, .home_grids_content_eight, .home_grids_content_nine, .home_grids_content_twelve {
@@ -361,8 +377,20 @@ p {
         font-size: calc(14px + 0.1vw); }
   .home_grids_content_one {
     background-size: 75%; }
+  .home_grids_content_one.one-cmc {
+    background-size: 112%;
+    background-position: 50% 35%; }
+  .home_grids_content_one.one-ike {
+    background-size: 130%;
+    background-position: center bottom; }
   .home_grids_content_two {
     background-position-y: 65%; }
+  .home_grids_content_two.two-hp {
+    background-size: 175%;
+    background-position: 50% 20%; }
+  .home_grids_content_two.two-tp {
+    background-size: 75%;
+    background-position: center; }
   .home_grids_content_three {
     background-position: 58% 80%; }
   .home_grids_content_four {
@@ -464,7 +492,7 @@ p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
 .subpage_main_image.iheart_image {
-  background-image: url("src/images/iheart_mockup.png");
+  background-image: url("images/iheart_mockup.png");
   height: 350px;
   background-size: cover;
   background-position: center;
@@ -488,7 +516,7 @@ p {
   text-align: center; }
 
 .subpage_subimages.one {
-  background-image: url("src/images/iheart_home.jpg");
+  background-image: url("images/iheart_home.jpg");
   width: 100%;
   height: 300px;
   background-size: cover;
@@ -536,14 +564,14 @@ p {
     margin-right: 0; }
 
 .smithsonian .smithsonian_image {
-  background-image: url("src/images/smithsonian_test.jpg");
+  background-image: url("images/smithsonian_test.jpg");
   height: 350px;
   background-size: cover;
   background-position: center;
   transform: scale(1.1); }
 
 .subpage_subimages.brochure {
-  background-image: url("src/images/smithsonian2.jpg");
+  background-image: url("images/smithsonian2.jpg");
   height: 350px;
   background-size: cover;
   background-position: center;
@@ -557,7 +585,7 @@ p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
 .subpage_subimages.prague1 {
-  background-image: url("src/images/prague-mugs.jpg");
+  background-image: url("images/prague-mugs.jpg");
   height: 350px;
   background-size: cover;
   background-position: center;
@@ -571,7 +599,7 @@ p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
 .subpage_main_image.alterego_image {
-  background-image: url("src/images/alterego_laptop.png");
+  background-image: url("images/alterego_laptop.png");
   height: 300px;
   background-size: 130%;
   background-position: center; }
@@ -587,7 +615,7 @@ p {
   text-align: center; }
 
 .subpage_subimages.one.alterego1 {
-  background-image: url("src/images/alterego_displays.png");
+  background-image: url("images/alterego_displays.png");
   width: 100%;
   height: 300px;
   background-size: contain;
@@ -606,8 +634,45 @@ p {
     width: calc(45% - 2%);
     margin-right: 15px; }
 
+.subpage_main_image.healthpersona_image {
+  background-image: url("images/healthpersonas_portfolio.png");
+  height: 300px;
+  background-size: 170%;
+  background-position: center; }
+
+.subpage_main_content {
+  position: relative; }
+  .subpage_main_content a {
+    color: #2a2a2a;
+    font-family: "Fjalla One";
+    font-size: 1rem; }
+
+.subpage_subimages {
+  text-align: center; }
+
+.subpage_subimages.one.healthpersona1 {
+  background-image: url("images/hp_displays.png");
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 2rem 0; }
+
+.subpage_subimages.healthpersona2 {
+  padding: 2rem; }
+  .subpage_subimages.healthpersona2 img {
+    width: 60%; }
+
+.subpage_subimages.three.healthpersona3 {
+  padding: 2rem 0 0; }
+  .subpage_subimages.three.healthpersona3 .hp_subimage {
+    width: calc(65% - 2%); }
+  .subpage_subimages.three.healthpersona3 .hp_subimage2 {
+    width: calc(33% - 2%); }
+
 .sugarfaced {
-  background-image: url("src/images/boxesFront.jpg");
+  background-image: url("images/boxesFront.jpg");
   background-size: 130%;
   background-position: center;
   height: 290px; }
@@ -644,7 +709,7 @@ p {
   mix-blend-mode: multiply; }
 
 .subpage_subimages.pictograms1 {
-  background-image: url("src/images/pictograms_white.png");
+  background-image: url("images/pictograms_white.png");
   height: 600px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -664,7 +729,7 @@ p {
     height: 75vh; }
 
 .subpage_main_image.onemile_image {
-  background-image: url("src/images/onemile_display.png");
+  background-image: url("images/onemile_display.png");
   height: 350px;
   background-size: cover;
   background-position: center;
@@ -681,7 +746,7 @@ p {
   text-align: center; }
 
 .subpage_subimages.one.onemile1 {
-  background-image: url("src/images/oneMile_laptop.png");
+  background-image: url("images/oneMile_laptop.png");
   width: 100%;
   height: 300px;
   background-position: center; }
@@ -738,7 +803,7 @@ p {
   transform: scale(1.1); }
 
 .subpage_subimages.honTennis1 {
-  background-image: url("src/images/honTennis_nomug.png");
+  background-image: url("images/honTennis_nomug.png");
   height: 300px;
   background-size: contain;
   background-position: center;
@@ -761,7 +826,7 @@ p {
     margin-right: 0; }
 
 .subpage_main_image.hiblend_image {
-  background-image: url("src/images/hiblend_laptop.png");
+  background-image: url("images/hiblend_laptop.png");
   height: 350px;
   background-size: contain;
   background-position: center;
@@ -786,7 +851,7 @@ p {
   text-align: center; }
 
 .subpage_subimages.one.hiblend {
-  background-image: url("src/images/hiblend_displays.png");
+  background-image: url("images/hiblend_displays.png");
   width: 100%;
   height: 300px;
   background-position: center;
@@ -805,13 +870,13 @@ p {
     margin-right: 0; }
 
 .subpage_main.magazine .subpage_main_image.magazine_image {
-  background-image: url("src/images/12thman_cover.jpg");
+  background-image: url("images/12thman_cover.jpg");
   height: 350px;
   background-size: cover;
   background-position: center; }
 
 .subpage_subimages.magazine1 {
-  background-image: url("src/images/12thman_mockup.jpg");
+  background-image: url("images/12thman_mockup.jpg");
   height: 350px;
   background-size: cover;
   background-position: center;
@@ -863,6 +928,8 @@ p {
   .centerbox .home_left .home_left_contact .phone span {
     margin-left: 0;
     font-size: calc(17.5px + 0.2vw); }
+  .home_grids_content_one.one-cmc, .home_grids_content_two.two-tp {
+    background-position-y: 50%; }
   .home_grids_content_three {
     background-position-y: 50%; }
   .home_grids_content_eight, .home_grids_content_twelve {
@@ -967,7 +1034,7 @@ p {
   .home_grids {
     display: block;
     margin-top: 0; }
-    .home_grids_content:nth-child(n+5) {
+    .home_grids_content:nth-child(n+9) {
       margin-top: 10%; }
     .home_grids_content.grid_sugarfaced {
       margin-top: 10%; }
@@ -979,9 +1046,18 @@ p {
       margin-top: 0; }
     .home_grids_content_one {
       background-size: 67vw; }
+    .home_grids_content_one.one-cmc {
+      background-size: 75%;
+      background-position-y: center; }
+    .home_grids_content_one.one-ike {
+      background-size: 120%;
+      background-position-y: 60%; }
     .home_grids_content_two {
       background-size: 100vw;
       background-position: 50% 70%; }
+    .home_grids_content_two.two-hp {
+      background-size: 100%;
+      background-position-y: center; }
     .home_grids_content_three {
       background-size: 78vw;
       background-position: 35% 120%; }
