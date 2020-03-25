@@ -1,20 +1,9 @@
 .home_grids {
   margin: 10% 5% 5%;
   display: grid;
-  // grid-template-columns: calc(50% - 1.5%) calc(50% - 1.5%);
-  // grid-column-gap: 3%;
-  // grid-template-areas:
-  //   "grid_hiblend grid_onemile"
-  //   "grid_iheart grid_onemile"
-  //   "grid_iheart grid_alterego"
-  //   "grid_smithsonian grid_alterego"
-  //   "grid_smithsonian grid_12thman"
-  //   "grid_pictograms grid_12thman"
-  //   "grid_pictograms grid_ikea"
-  //   "grid_sugarfaced grid_ikea";
   grid-template-columns: calc(33% - 1.5%) calc(33% - 1.5%) calc(33% - 1.5%);
   grid-column-gap: 3%;
-  grid-template-areas: "grid_hiblend grid_hiblend grid_onemile" "grid_iheart grid_alterego grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea";
+  grid-template-areas: "grid_hiblend grid_hiblend grid_hp" "grid_cmc grid_ike grid_ike" "grid_tp grid_tp grid_onemile" "grid_iheart grid_alterego grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea";
 
   .grid_hiblend,
   .grid_onemile,
@@ -34,6 +23,22 @@
 
   .grid_hiblend {
     grid-area: grid_hiblend;
+  }
+
+  .grid_hp {
+    grid-area: grid_hp;
+  }
+
+  .grid_cmc {
+    grid-area: grid_cmc;
+  }
+
+  .grid_ike {
+    grid-area: grid_ike;
+  }
+
+  .grid_tp {
+    grid-area: grid_tp;
   }
 
   .grid_onemile {
@@ -80,7 +85,7 @@
     margin-top: 0;
   }
 
-  &_content:nth-child(n+5) {
+  &_content:nth-child(n+9) {
     margin-top: 30%;
   }
 
@@ -92,9 +97,25 @@
     background: rgba(0, 0, 0, 0) url("src/images/hiblend_laptop.png") no-repeat;
   }
 
+  &_content_one.one-cmc {
+    background: rgba(0, 0, 0, 0) url("images/cmc_portfolio.png") no-repeat;
+  }
+
+  &_content_one.one-ike {
+    background: rgba(0, 0, 0, 0) url("images/ike_display.png") no-repeat;
+  }
+
   &_content_two {
     background: rgba(0, 0, 0, 0) url("src/images/onemile_display.png") no-repeat;
     // margin-top: 50%;
+  }
+
+  &_content_two.two-hp {
+    background: rgba(0, 0, 0, 0) url("images/healthpersonas_portfolio.png") no-repeat;
+  }
+
+  &_content_two.two-tp {
+    background: rgba(0, 0, 0, 0) url("images/teampraxis_portfolio.png") no-repeat;
   }
 
   &_content_three {
@@ -185,8 +206,28 @@
     background-size: 75%;
   }
 
+  &_content_one.one-cmc {
+    background-size: 112%;
+    background-position: 50% 35%;
+  }
+
+  &_content_one.one-ike {
+    background-size: 130%;
+    background-position: center bottom;
+  }
+
   &_content_two {
     background-position-y: 65%;
+  }
+
+  &_content_two.two-hp {
+    background-size: 175%;
+    background-position: 50% 20%;
+  }
+
+  &_content_two.two-tp {
+    background-size: 75%;
+    background-position: center;
   }
 
   &_content_three {

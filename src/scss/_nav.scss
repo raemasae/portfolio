@@ -60,27 +60,27 @@
 .hamburger_home {
   position: fixed;
   width: 60px;
-  top: 60px;
+  top: 7vw;
   left: 45px;
   z-index: 6;
+  height: 36px;
 
   .arrow {
     @include links;
 
-    font-size: 3.5rem;
+    font-size: calc(20px + 2vw);
     line-height: 36px;
     position: absolute;
-    left: -29px;
-    bottom: -18px;
+    left: -25px;
     font-weight: 500;
   }
 
   &_ra {
     font-weight: $light_fontweight;
-    font-size: 2rem;
+    font-size: calc(18px + 1vw);
     text-decoration: none;
     letter-spacing: -2px;
     color: $nav_color;
-    line-height: 0;
+    line-height: 36px;
   }
 }

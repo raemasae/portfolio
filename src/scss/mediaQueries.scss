@@ -28,6 +28,11 @@
 
   .home_grids {
     &_content {
+      &_one.one-cmc,
+      &_two.two-tp {
+        background-position-y: 50%;
+      }
+
       &_three {
         background-position-y: 50%;
       }
@@ -186,7 +191,7 @@
     display: block;
     margin-top: 0;
 
-    &_content:nth-child(n+5) {
+    &_content:nth-child(n+9) {
       margin-top: 10%;
     }
 
@@ -211,9 +216,24 @@
         background-size: 67vw;
       }
 
+      &_one.one-cmc {
+        background-size: 75%;
+        background-position-y: center;
+      }
+
+      &_one.one-ike {
+        background-size: 120%;
+        background-position-y: 60%;
+      }
+
       &_two {
         background-size: 100vw;
         background-position: 50% 70%;
+      }
+
+      &_two.two-hp {
+        background-size: 100%;
+        background-position-y: center;
       }
 
       &_three {
