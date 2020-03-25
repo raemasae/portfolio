@@ -1199,3 +1199,23 @@ p {
       display: none; }
     .subpage_container_12th .right_scroll .magazine_wrapper .subpage_subimages.three.magazine3:nth-child(2) img:nth-child(-n+2) {
       display: none; } }
+
+@media screen and (min-width: 1920px) {
+  .home_grids_content_one, .home_grids_content_two.two-tp, .home_grids_content_four {
+    background-size: contain; }
+  .home_grids_content_one.one-ike {
+    background-size: 110%; }
+  .home_grids_content_two {
+    background-size: 200%; }
+  .home_grids_content_three {
+    background-size: 160%;
+    background-position: center 80%; }
+  .home_grids_content:nth-child(n+9) {
+    margin-top: 21%; }
+  .home_grids_content.grid_sugarfaced {
+    margin-top: 10%; }
+}
+
+@media screen and (min-width: 2000px) {
+  .home.container {
+    max-width: 2000px; } }
