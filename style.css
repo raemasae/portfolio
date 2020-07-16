@@ -332,7 +332,7 @@ p {
   .home_grids_content_two.two-tp {
     background: transparent url("src/images/teampraxis_portfolio.png") no-repeat; }
   .home_grids_content_three {
-    background: transparent url("src/images/iheart_mockup.jpg") no-repeat; }
+    background: transparent url("src/images/iheart_mockup.png") no-repeat; }
   .home_grids_content_four {
     background: transparent url("src/images/alterego_laptop.png") no-repeat; }
   .home_grids_content_eleven {
@@ -1129,7 +1129,7 @@ p {
     .home_grids_content_one, .home_grids_content_two, .home_grids_content_three, .home_grids_content_four, .home_grids_content_five, .home_grids_content_six, .home_grids_content_seven, .home_grids_content_eight, .home_grids_content_nine, .home_grids_content_twelve {
       min-height: 250px; }
     .home_grids_content_one.one-a {
-      background-position: center; }
+      background-position: center 78%; }
     .home_grids_content_two, .home_grids_content_three, .home_grids_content_four {
       background-position-y: top; }
     .home_grids_content_two.two-hp, .home_grids_content_one.one-cmc {
