@@ -263,8 +263,8 @@ p {
   display: grid;
   grid-template-columns: calc(33% - 1.5%) calc(33% - 1.5%) calc(33% - 1.5%);
   grid-column-gap: 3%;
-  grid-template-areas: "grid_dempsey grid_dempsey grid_hiblend" "grid_hp grid_cmc grid_cmc" "grid_ike grid_ike grid_tp" "grid_onemile grid_iheart grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea"; }
-  .home_grids .grid_dempsey,
+  grid-template-areas: "grid_yama grid_yama grid_hiblend" "grid_hp grid_dempsey grid_dempsey" "grid_ike grid_ike grid_tp" "grid_onemile grid_iheart grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea"; }
+  .home_grids .grid_yama,
   .home_grids .grid_hiblend,
   .home_grids .grid_onemile,
   .home_grids .grid_iheart,
@@ -277,14 +277,14 @@ p {
   .home_grids .grid_crazy,
   .home_grids .grid_pictograms {
     height: 450px; }
-  .home_grids .grid_dempsey {
-    grid-area: grid_dempsey; }
+  .home_grids .grid_yama {
+    grid-area: grid_yama; }
   .home_grids .grid_hiblend {
     grid-area: grid_hiblend; }
   .home_grids .grid_hp {
     grid-area: grid_hp; }
-  .home_grids .grid_cmc {
-    grid-area: grid_cmc; }
+  .home_grids .grid_dempsey {
+    grid-area: grid_dempsey; }
   .home_grids .grid_ike {
     grid-area: grid_ike; }
   .home_grids .grid_tp {
@@ -318,11 +318,11 @@ p {
   .home_grids_content.grid_sugarfaced {
     margin-top: 14.5%; }
   .home_grids_content_one.one-a {
-    background: transparent url("src/images/dempsey_home.png") no-repeat; }
+    background: transparent url("src/images/yama_home.png") no-repeat; }
   .home_grids_content_one {
     background: transparent url("src/images/hiblend_laptop.png") no-repeat; }
-  .home_grids_content_one.one-cmc {
-    background: transparent url("src/images/cmc_portfolio.png") no-repeat; }
+  .home_grids_content_one.one-dempsey {
+    background: transparent url("src/images/dempsey_portfolio.png") no-repeat; }
   .home_grids_content_one.one-ike {
     background: transparent url("src/images/ike_display.png") no-repeat; }
   .home_grids_content_two {
@@ -388,7 +388,7 @@ p {
   .home_grids_content_one {
     background-size: contain;
     background-position: 0 60%; }
-  .home_grids_content_one.one-cmc {
+  .home_grids_content_one.one-dempsey {
     background-size: 75%;
     background-position: 50% 35%; }
   .home_grids_content_one.one-ike {
@@ -939,7 +939,7 @@ p {
   .centerbox .home_left .home_left_contact .phone span {
     margin-left: 0;
     font-size: calc(17.5px + 0.2vw); }
-  .home_grids_content_one.one-cmc, .home_grids_content_two.two-tp {
+  .home_grids_content_one.one-dempsey, .home_grids_content_two.two-tp {
     background-position-y: 50%; }
   .home_grids_content_three {
     background-position-y: 50%; }
@@ -1060,7 +1060,7 @@ p {
     .home_grids_content_one {
       background-size: 60vw;
       background-position: 51% center; }
-    .home_grids_content_one.one-cmc {
+    .home_grids_content_one.one-dempsey {
       background-size: 64vw;
       background-position: center bottom; }
     .home_grids_content_one.one-ike {
@@ -1112,7 +1112,7 @@ p {
 @media screen and (max-width: 736px) {
   .container .left_fixed {
     padding-bottom: 30%; }
-  .home_grids .grid_dempsey,
+  .home_grids .grid_yama,
   .home_grids .grid_hiblend,
   .home_grids .grid_onemile,
   .home_grids .grid_iheart,
@@ -1132,7 +1132,7 @@ p {
       background-position: center; }
     .home_grids_content_two, .home_grids_content_three, .home_grids_content_four {
       background-position-y: top; }
-    .home_grids_content_two.two-hp, .home_grids_content_one.one-cmc {
+    .home_grids_content_two.two-hp, .home_grids_content_one.one-dempsey {
       background-position-y: center; }
     .home_grids_content_eight.content_tall, .home_grids_content_seven.content_tall {
       height: 250px;
@@ -1231,7 +1231,7 @@ p {
     background-position: 0 60%; }
   .home_grids_content_one.one-ike {
     background-size: 90%; }
-  .home_grids_content_one.one-cmc {
+  .home_grids_content_one.one-dempsey {
     background-size: 50%; }
   .home_grids_content_two {
     background-size: 180%;
