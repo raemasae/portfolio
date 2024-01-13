@@ -386,7 +386,7 @@ p {
     background-size: 110%;
     background-position: bottom; }
   .home_grids_content_one {
-    background-size: contain;
+    background-size: 110%;
     background-position: 0 60%; }
   .home_grids_content_one.one-dempsey {
     background-size: 120%; }
