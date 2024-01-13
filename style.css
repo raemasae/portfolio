@@ -367,7 +367,8 @@ p {
       z-index: 2;
       font-size: 1.5rem;
       opacity: 0;
-      padding: 0; }
+      padding: 0;
+      text-transform: uppercase; }
     .home_grids_content_one .border-test .one_label.details, .home_grids_content_two .border-test .one_label.details, .home_grids_content_three .border-test .one_label.details, .home_grids_content_four .border-test .one_label.details, .home_grids_content_five .border-test .one_label.details, .home_grids_content_six .border-test .one_label.details, .home_grids_content_seven .border-test .one_label.details, .home_grids_content_eight .border-test .one_label.details, .home_grids_content_nine .border-test .one_label.details, .home_grids_content_twelve .border-test .one_label.details {
       bottom: -73%; }
     .home_grids_content_one .content_label, .home_grids_content_two .content_label, .home_grids_content_three .content_label, .home_grids_content_four .content_label, .home_grids_content_five .content_label, .home_grids_content_six .content_label, .home_grids_content_seven .content_label, .home_grids_content_eight .content_label, .home_grids_content_nine .content_label, .home_grids_content_twelve .content_label {
