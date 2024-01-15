@@ -321,10 +321,9 @@ p {
     margin-top: 30%; }
   .home_grids_content.grid_alterego {
     margin-top: 30px; }
-  .home_grids_content.grid_sugarfaced {
-    margin-top: 14.5%; }
+  .home_grids_content.grid_sugarfaced,
   .home_grids_content.grid_HISflyers {
-    margin-top: 10%; }
+    margin-top: 14.5%; }
   .home_grids_content_one.one-a {
     background: transparent url("src/images/laurenyama.png") no-repeat; }
   .home_grids_content_one {
