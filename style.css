@@ -961,8 +961,12 @@ p {
   background-position: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
-.magazine_wrapper {
-  display: flex; }
+.flyers3 img {
+  max-width: 90%; }
+
+.flyers_wrapper {
+  background-color: #f2f5f5; 
+  padding: 5%; }
 
 .subpage_image_scroll {
   position: absolute;
