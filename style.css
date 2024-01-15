@@ -743,6 +743,16 @@ p {
   margin-bottom: 3rem;
   margin-top: 10%; }
 
+.subpage_subimages.testimonials1 {
+  background-image: url("src/images/pictograms_white.png");
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1);
+  margin-bottom: 3rem;
+  margin-top: 10%; }
+
 .crazylegs img {
   height: 500px;
   object-fit: cover;
