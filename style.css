@@ -928,6 +928,32 @@ p {
     width: 100%;
     margin-bottom: 1rem; }
 
+.subpage_main.flyers .subpage_main_image.flyers_image {
+  background-image: url("src/images/HIS_flyers.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center; }
+
+.subpage_subimages.flyers1 {
+  background-image: url("src/images/HIS_event_flyer2.png");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1);
+  margin-bottom: 3rem; }
+
+.magazine_mobile {
+  display: none; }
+
+.flyers2 img {
+  width: 90%;
+  margin-bottom: 3rem;
+  background-position: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+
+.magazine_wrapper {
+  display: flex; }
+
 .subpage_image_scroll {
   position: absolute;
   bottom: 50%;
