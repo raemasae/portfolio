@@ -954,6 +954,9 @@ p {
 .flyers3 img {
   max-width: 90%; }
 
+.flyers3 img:nth-of-type(2) {
+  max-width: 70%; }
+
 .flyers_wrapper {
   background-color: #f2f5f5; 
   padding: 5%; }
