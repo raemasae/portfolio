@@ -962,6 +962,10 @@ p {
   background-color: #f2f5f5; 
   padding: 5%; }
 
+.testimonials1 img {
+  max-width: 45%;
+  margin-top: 7%; }
+
 .subpage_image_scroll {
   position: absolute;
   bottom: 50%;
