@@ -954,7 +954,7 @@ p {
 .flyers3 img {
   max-width: 90%; }
 
-.flyers3 img:nth-of-type(2) {
+.flyers3:nth-of-type(2) img {
   margin-top: 5%;
   max-width: 70%; }
 
