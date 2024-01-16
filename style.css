@@ -216,7 +216,7 @@ p {
         font-size: calc(13px + 0.1vw); }
     .centerbox .home_left .home_left_intro {
       position: relative;
-      top: 30vh; }
+      top: 35vh; }
       .centerbox .home_left .home_left_intro .arrowed {
         position: relative;
         top: 18px;
@@ -229,7 +229,7 @@ p {
           font-size: calc(16px + 0.2vw); }
     .centerbox .home_left .home_left_statement {
       position: relative;
-      top: 30vh; }
+      top: 35vh; }
       .centerbox .home_left .home_left_statement h3 {
         font-family: "Fjalla One";
         text-transform: uppercase;
