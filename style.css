@@ -493,6 +493,10 @@ p {
   .subpage_main .subpage_main_content_category {
     text-transform: uppercase;
     font-weight: 300; }
+  .description {
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 15px; }
   .subpage_main h2 {
     font-family: "Fjalla One";
     line-height: 1; }
