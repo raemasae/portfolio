@@ -497,6 +497,8 @@ p {
     font-weight: 300;
     font-size: 17px;
     margin-bottom: 15px; }
+  .description.responsibilities {
+    font-style: italic; }
   .subpage_main h2 {
     font-family: "Fjalla One";
     line-height: 1; }
