@@ -385,7 +385,7 @@ p {
     transition: background-color 0.5s;
     z-index: 1;
     border-bottom: 0.5px solid black; }
-    .home_grids_content_one .border-test .one_label, .home_grids_content_two .border-test .one_label, .home_grids_content_three .border-test .one_label, .home_grids_content_four .border-test .one_label, .home_grids_content_five .border-test .one_label, .home_grids_content_six .border-test .one_label, .home_grids_content_seven .border-test .one_label, .home_grids_content_eight .border-test .one_label, .home_grids_content_nine .border-test .one_label, .home_grids_content_twelve .border-test .one_label, .home_grids_content_thirteen .border-test .one_label, .home_grids_content_fourteen .border-test .one_label, .home_grids_content .one_label {
+    .home_grids_content_one .border-test .one_label, .home_grids_content_two .border-test .one_label, .home_grids_content_three .border-test .one_label, .home_grids_content_four .border-test .one_label, .home_grids_content_five .border-test .one_label, .home_grids_content_six .border-test .one_label, .home_grids_content_seven .border-test .one_label, .home_grids_content_eight .border-test .one_label, .home_grids_content_nine .border-test .one_label, .home_grids_content_twelve .border-test .one_label, .home_grids_content_thirteen .border-test .one_label, .home_grids_content_fourteen .border-test .one_label, .home_grids_content .border-test .one_label {
       position: absolute;
       left: 0;
       right: 0;
