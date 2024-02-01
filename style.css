@@ -426,7 +426,8 @@ p {
     background-size: 110%;
     background-position: 0 50%; }
   .home_grids_content_one.one-dempsey {
-    background-size: 120%; }
+    background-size: 120%;
+    background-position: center;}
   .home_grids_content_one.one-ike {
     background-size: 130%;
     background-position: center 65%; }
@@ -1204,7 +1205,10 @@ p {
   .home_grids .grid_sugarfaced,
   .home_grids .grid_smithsonian,
   .home_grids .grid_ikea,
-  .home_grids .grid_12thman {
+  .home_grids .grid_12thman,
+  .home_grids .grid_lavarock,
+  .home_grids .grid_alohahawaiian,
+  .home_grids .grid_hawaiisignature {
     min-height: 250px; }
   .home_grids .grid_pictograms {
     height: 250px; }
