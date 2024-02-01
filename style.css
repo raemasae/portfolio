@@ -326,6 +326,8 @@ p {
     margin-top: 30px; }
   .home_grids_content:nth-child(-n+2) {
     margin-top: 0; }
+  .home_grids_content:nth-child(n+7) {
+    margin-top: 30%; }
   .home_grids_content.grid_alterego {
     margin-top: 30px; }
   .home_grids_content.grid_sugarfaced,
