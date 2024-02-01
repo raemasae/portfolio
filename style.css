@@ -316,6 +316,12 @@ p {
     grid-area: grid_HISflyers; }
   .home_grids .grid_HIStestimonials {
     grid-area: grid_HIStestimonials; }
+  .home_grids .grid_lavarock {
+    grid-area: grid_lavarock; }
+  .home_grids .grid_alohahawaiian {
+    grid-area: grid_alohahawaiian; }
+  .home_grids .grid_hawaiisignature {
+    grid-area: grid_hawaiisignature; }
   .home_grids_content {
     margin-top: 30px; }
   .home_grids_content:nth-child(-n+2) {
