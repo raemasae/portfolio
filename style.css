@@ -423,8 +423,8 @@ p {
     background-size: 110%;
     background-position: bottom; }
   .home_grids_content_one {
-    background-size: 110%;
-    background-position: 0 50%; }
+    background-size: 125%;
+    background-position: center; }
   .home_grids_content_one.one-dempsey {
     background-size: 120%;
     background-position: center;}
