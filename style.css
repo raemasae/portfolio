@@ -369,11 +369,11 @@ p {
     background: transparent url("src/images/HIS_flyers.jpg") no-repeat; }
   .home_grids_content_fourteen {
     background: transparent url("src/images/HIS_testimonials.png") no-repeat; }
-   .home_grids_content_fifteen {
+   .home_grids_content_one.fifteen {
     background: transparent url("src/images/lavarock.png") no-repeat; }
-  .home_grids_content_sixteen {
+  .home_grids_content_one.sixteen {
     background: transparent url("src/images/alohahawaiian.png") no-repeat; }
-  .home_grids_content_seventeen {
+  .home_grids_content_one.seventeen {
     background: transparent url("src/images/hawaiisignature.png") no-repeat; }
   .home_grids .content_tall {
     height: 450px; }
