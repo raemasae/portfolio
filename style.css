@@ -377,6 +377,16 @@ p {
     background: transparent url("src/images/hawaiisignatureproperties.jpg") no-repeat; }
   .home_grids .content_tall {
     height: 450px; }
+  .home_grids_content .border-test .one_label {
+    position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -55%;
+      z-index: 2;
+      font-size: 1.5rem;
+      opacity: 0;
+      padding: 0;
+      text-transform: uppercase; }
   .home_grids_content_one, .home_grids_content_two, .home_grids_content_three, .home_grids_content_four, .home_grids_content_five, .home_grids_content_six, .home_grids_content_seven, .home_grids_content_eight, .home_grids_content_nine, .home_grids_content_twelve, .home_grids_content_thirteen, .home_grids_content_fourteen {
     background-size: cover;
     background-position: center;
@@ -385,7 +395,7 @@ p {
     transition: background-color 0.5s;
     z-index: 1;
     border-bottom: 0.5px solid black; }
-    .home_grids_content_one .border-test .one_label, .home_grids_content_two .border-test .one_label, .home_grids_content_three .border-test .one_label, .home_grids_content_four .border-test .one_label, .home_grids_content_five .border-test .one_label, .home_grids_content_six .border-test .one_label, .home_grids_content_seven .border-test .one_label, .home_grids_content_eight .border-test .one_label, .home_grids_content_nine .border-test .one_label, .home_grids_content_twelve .border-test .one_label, .home_grids_content_thirteen .border-test .one_label, .home_grids_content_fourteen .border-test .one_label, .home_grids_content .border-test .one_label {
+    .home_grids_content_one .border-test .one_label, .home_grids_content_two .border-test .one_label, .home_grids_content_three .border-test .one_label, .home_grids_content_four .border-test .one_label, .home_grids_content_five .border-test .one_label, .home_grids_content_six .border-test .one_label, .home_grids_content_seven .border-test .one_label, .home_grids_content_eight .border-test .one_label, .home_grids_content_nine .border-test .one_label, .home_grids_content_twelve .border-test .one_label, .home_grids_content_thirteen .border-test .one_label, .home_grids_content_fourteen .border-test .one_label {
       position: absolute;
       left: 0;
       right: 0;
@@ -395,7 +405,7 @@ p {
       opacity: 0;
       padding: 0;
       text-transform: uppercase; }
-    .home_grids_content_one .border-test .one_label.details, .home_grids_content_two .border-test .one_label.details, .home_grids_content_three .border-test .one_label.details, .home_grids_content_four .border-test .one_label.details, .home_grids_content_five .border-test .one_label.details, .home_grids_content_six .border-test .one_label.details, .home_grids_content_seven .border-test .one_label.details, .home_grids_content_eight .border-test .one_label.details, .home_grids_content_nine .border-test .one_label.details, .home_grids_content_twelve .border-test .one_label.details, .home_grids_content_thirteen .border-test .one_label.details, .home_grids_content_fourteen .border-test .one_label.details {
+    .home_grids_content_one .border-test .one_label.details, .home_grids_content_two .border-test .one_label.details, .home_grids_content_three .border-test .one_label.details, .home_grids_content_four .border-test .one_label.details, .home_grids_content_five .border-test .one_label.details, .home_grids_content_six .border-test .one_label.details, .home_grids_content_seven .border-test .one_label.details, .home_grids_content_eight .border-test .one_label.details, .home_grids_content_nine .border-test .one_label.details, .home_grids_content_twelve .border-test .one_label.details, .home_grids_content_thirteen .border-test .one_label.details, .home_grids_content_fourteen .border-test .one_label.details, home_grids_content .border-test .one_label.details {
       bottom: -73%; }
     .home_grids_content_one .content_label, .home_grids_content_two .content_label, .home_grids_content_three .content_label, .home_grids_content_four .content_label, .home_grids_content_five .content_label, .home_grids_content_six .content_label, .home_grids_content_seven .content_label, .home_grids_content_eight .content_label, .home_grids_content_nine .content_label, .home_grids_content_twelve .content_label, .home_grids_content_thirteen .content_label, .home_grids_content_fourteen .content_label {
       position: absolute;
@@ -406,7 +416,7 @@ p {
       line-height: 1.1;
       padding-bottom: 5px;
       font-size: calc(13px + 0.1vw); }
-      .home_grids_content_one .content_label .content_label_caption, .home_grids_content_two .content_label .content_label_caption, .home_grids_content_three .content_label .content_label_caption, .home_grids_content_four .content_label .content_label_caption, .home_grids_content_five .content_label .content_label_caption, .home_grids_content_six .content_label .content_label_caption, .home_grids_content_seven .content_label .content_label_caption, .home_grids_content_eight .content_label .content_label_caption, .home_grids_content_nine .content_label .content_label_caption, .home_grids_content_twelve .content_label .content_label_caption, .home_grids_content_thirteen .content_label .content_label_caption, .home_grids_content_fourteen .content_label .content_label_caption {
+      .home_grids_content_one .content_label .content_label_caption, .home_grids_content_two .content_label .content_label_caption, .home_grids_content_three .content_label .content_label_caption, .home_grids_content_four .content_label .content_label_caption, .home_grids_content_five .content_label .content_label_caption, .home_grids_content_six .content_label .content_label_caption, .home_grids_content_seven .content_label .content_label_caption, .home_grids_content_eight .content_label .content_label_caption, .home_grids_content_nine .content_label .content_label_caption, .home_grids_content_twelve .content_label .content_label_caption, .home_grids_content_thirteen .content_label .content_label_caption, .home_grids_content_fourteen .content_label .content_label_caption, .home_grids_content .content_label .content_label_caption {
         font-weight: 100;
         font-size: calc(14px + 0.1vw); }
   .home_grids_content_one.one-a {
