@@ -387,7 +387,7 @@ p {
       opacity: 0;
       padding: 0;
       text-transform: uppercase; }
-  .home_grids_content_one, .home_grids_content_two, .home_grids_content_three, .home_grids_content_four, .home_grids_content_five, .home_grids_content_six, .home_grids_content_seven, .home_grids_content_eight, .home_grids_content_nine, .home_grids_content_twelve, .home_grids_content_thirteen, .home_grids_content_fourteen, .home_gridsx_content_fifteen, .home_grids_content_sixteen, .home_gridx_content_seventeen {
+  .home_grids_content_one, .home_grids_content_two, .home_grids_content_three, .home_grids_content_four, .home_grids_content_five, .home_grids_content_six, .home_grids_content_seven, .home_grids_content_eight, .home_grids_content_nine, .home_grids_content_twelve, .home_grids_content_thirteen, .home_grids_content_fourteen, .home_grids_content_fifteen, .home_grids_content_sixteen, .home_grids_content_seventeen {
     background-size: cover;
     background-position: center;
     min-height: 350px;
