@@ -369,6 +369,12 @@ p {
     background: transparent url("src/images/HIS_flyers.jpg") no-repeat; }
   .home_grids_content_fourteen {
     background: transparent url("src/images/HIS_testimonials.png") no-repeat; }
+   .home_grids_content_fifteen {
+    background: transparent url("src/images/lavarock.jpg") no-repeat; }
+  .home_grids_content_sixteen {
+    background: transparent url("src/images/alohahawaiianproperties.jpg") no-repeat; }
+  .home_grids_content_seventeen {
+    background: transparent url("src/images/hawaiisignatureproperties.jpg") no-repeat; }
   .home_grids .content_tall {
     height: 450px; }
   .home_grids_content_one, .home_grids_content_two, .home_grids_content_three, .home_grids_content_four, .home_grids_content_five, .home_grids_content_six, .home_grids_content_seven, .home_grids_content_eight, .home_grids_content_nine, .home_grids_content_twelve, .home_grids_content_thirteen, .home_grids_content_fourteen {
