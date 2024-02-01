@@ -455,6 +455,11 @@ p {
     background-position-y: -45px; }
   .home_grids_content_thriteen {
     background-position: bottom; }
+  .home_grids_content_fifteen,
+  .home_grids_content_sixteen,
+  .home_grids_content_seventeen {
+    background-size: 125%;
+    background-position: center; }
   .home_grids .content_hover::before {
     position: absolute;
     top: 0;
