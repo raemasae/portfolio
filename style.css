@@ -370,11 +370,11 @@ p {
   .home_grids_content_fourteen {
     background: transparent url("src/images/HIS_testimonials.png") no-repeat; }
    .home_grids_content_fifteen {
-    background: transparent url("src/images/lavarock.jpg") no-repeat; }
+    background: transparent url("src/images/lavarock.png") no-repeat; }
   .home_grids_content_sixteen {
-    background: transparent url("src/images/alohahawaiianproperties.jpg") no-repeat; }
+    background: transparent url("src/images/alohahawaiianproperties.png") no-repeat; }
   .home_grids_content_seventeen {
-    background: transparent url("src/images/hawaiisignatureproperties.jpg") no-repeat; }
+    background: transparent url("src/images/hawaiisignatureproperties.png") no-repeat; }
   .home_grids .content_tall {
     height: 450px; }
   .home_grids_content .border-test .one_label {
@@ -405,9 +405,9 @@ p {
       opacity: 0;
       padding: 0;
       text-transform: uppercase; }
-    .home_grids_content_one .border-test .one_label.details, .home_grids_content_two .border-test .one_label.details, .home_grids_content_three .border-test .one_label.details, .home_grids_content_four .border-test .one_label.details, .home_grids_content_five .border-test .one_label.details, .home_grids_content_six .border-test .one_label.details, .home_grids_content_seven .border-test .one_label.details, .home_grids_content_eight .border-test .one_label.details, .home_grids_content_nine .border-test .one_label.details, .home_grids_content_twelve .border-test .one_label.details, .home_grids_content_thirteen .border-test .one_label.details, .home_grids_content_fourteen .border-test .one_label.details, home_grids_content .border-test .one_label.details {
+    .home_grids_content_one .border-test .one_label.details, .home_grids_content_two .border-test .one_label.details, .home_grids_content_three .border-test .one_label.details, .home_grids_content_four .border-test .one_label.details, .home_grids_content_five .border-test .one_label.details, .home_grids_content_six .border-test .one_label.details, .home_grids_content_seven .border-test .one_label.details, .home_grids_content_eight .border-test .one_label.details, .home_grids_content_nine .border-test .one_label.details, .home_grids_content_twelve .border-test .one_label.details, .home_grids_content_thirteen .border-test .one_label.details, .home_grids_content_fourteen .border-test .one_label.details, home_grids_content_fifteen .border-test .one_label.details, home_grids_content_sixteen .border-test .one_label.details, home_grids_content_seventeen .border-test .one_label.details {
       bottom: -73%; }
-    .home_grids_content_one .content_label, .home_grids_content_two .content_label, .home_grids_content_three .content_label, .home_grids_content_four .content_label, .home_grids_content_five .content_label, .home_grids_content_six .content_label, .home_grids_content_seven .content_label, .home_grids_content_eight .content_label, .home_grids_content_nine .content_label, .home_grids_content_twelve .content_label, .home_grids_content_thirteen .content_label, .home_grids_content_fourteen .content_label {
+    .home_grids_content_one .content_label, .home_grids_content_two .content_label, .home_grids_content_three .content_label, .home_grids_content_four .content_label, .home_grids_content_five .content_label, .home_grids_content_six .content_label, .home_grids_content_seven .content_label, .home_grids_content_eight .content_label, .home_grids_content_nine .content_label, .home_grids_content_twelve .content_label, .home_grids_content_thirteen .content_label, .home_grids_content_fourteen .content_label, .home_grids_content .content_label {
       position: absolute;
       bottom: 0;
       left: 0;
