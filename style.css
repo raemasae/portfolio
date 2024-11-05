@@ -431,6 +431,8 @@ p {
       .home_grids_content_one .content_label .content_label_caption, .home_grids_content_two .content_label .content_label_caption, .home_grids_content_three .content_label .content_label_caption, .home_grids_content_four .content_label .content_label_caption, .home_grids_content_five .content_label .content_label_caption, .home_grids_content_six .content_label .content_label_caption, .home_grids_content_seven .content_label .content_label_caption, .home_grids_content_eight .content_label .content_label_caption, .home_grids_content_nine .content_label .content_label_caption, .home_grids_content_twelve .content_label .content_label_caption, .home_grids_content_thirteen .content_label .content_label_caption, .home_grids_content_fourteen .content_label .content_label_caption, .home_grids_content .content_label .content_label_caption {
         font-weight: 100;
         font-size: calc(14px + 0.1vw); }
+  .home_grids_content_one.one_konahawaii {
+    background-size: 100%; }
   .home_grids_content_one.one-a {
     background-size: 110%;
     background-position: bottom; }
