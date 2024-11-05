@@ -263,7 +263,8 @@ p {
   display: grid;
   grid-template-columns: calc(33% - 1.5%) calc(33% - 1.5%) calc(33% - 1.5%);
   grid-column-gap: 3%;
-  grid-template-areas: "grid_yama grid_yama grid_saltwater" "grid_lavarock grid_alohahawaiian grid_hawaiisignature" "grid_HISflyers grid_HISflyers grid_HIStestimonials" "grid_hp grid_dempsey grid_dempsey" "grid_ike grid_ike grid_tp" "grid_onemile grid_iheart grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea"; }
+  grid-template-areas: "grid_konahawaii grid_konahawaii" "grid_yama grid_yama grid_saltwater" "grid_lavarock grid_alohahawaiian grid_hawaiisignature" "grid_HISflyers grid_HISflyers grid_HIStestimonials" "grid_hp grid_dempsey grid_dempsey" "grid_ike grid_ike grid_tp" "grid_onemile grid_iheart grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea"; }
+  .home_gridx .grid_konahawaii,
   .home_grids .grid_yama,
   .home_grids .grid_saltwater,
   .home_grids .grid_onemile,
@@ -282,6 +283,8 @@ p {
   .home_grids .grid_crazy,
   .home_grids .grid_pictograms {
     height: 450px; }
+  .home_grids .grid_konahawaii {
+    grid-area: grid_konahawaii; }
   .home_grids .grid_yama {
     grid-area: grid_yama; }
   .home_grids .grid_saltwater {
