@@ -432,7 +432,8 @@ p {
         font-weight: 100;
         font-size: calc(14px + 0.1vw); }
   .home_grids_content_one.one_konahawaii {
-    background-size: 100%; }
+    background-size: 100%;
+    background-position: center; }
   .home_grids_content_one.one-a {
     background-size: 110%;
     background-position: bottom; }
@@ -1253,7 +1254,9 @@ p {
     .home_grids_content_twelve.content_tall {
       height: 250px;
       margin-top: 10%;
-      background-position-y: -30px; } }
+      background-position-y: -30px; }
+    .home_gridx_content_one.one_konahawaii {
+      min-height: 350px; }
 
 @media screen and (max-width: 768px) {
   .container.subpage_container .left_fixed {
