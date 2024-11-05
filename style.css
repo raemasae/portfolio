@@ -283,8 +283,8 @@ p {
   .home_grids .grid_crazy,
   .home_grids .grid_pictograms {
     height: 450px; }
-  .home_grids .grid_konahwaii {
-	  grid-area: grid_konahwaii; }
+  .home_grids .grid_konahawaii {
+    grid-area: grid_konahawaii; }
   .home_grids .grid_yama {
     grid-area: grid_yama; }
   .home_grids .grid_saltwater {
@@ -343,6 +343,8 @@ p {
   .home_grids_content.grid_12thman,
   .home_grids_content.grid_ikea {
     margin-top: 30%; }
+  .home_grids_content_one.one_konahawaii {
+    background: transparent url("src/images/konahawaii.png") no-repeat; ;}
   .home_grids_content_one.one-a {
     background: transparent url("src/images/laurenyama.png") no-repeat; }
   .home_grids_content_one {
