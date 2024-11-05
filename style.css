@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* CSS Document */
 @font-face{
   font-family: "Fjalla One";
   font-style: normal;
@@ -264,7 +266,7 @@ p {
   grid-template-columns: calc(33% - 1.5%) calc(33% - 1.5%) calc(33% - 1.5%);
   grid-column-gap: 3%;
   grid-template-areas: "grid_saltwater grid_konahawaii grid_konahwaii" "grid_yama grid_yama grid_saltwater" "grid_lavarock grid_alohahawaiian grid_hawaiisignature" "grid_HISflyers grid_HISflyers grid_HIStestimonials" "grid_hp grid_dempsey grid_dempsey" "grid_ike grid_ike grid_tp" "grid_onemile grid_iheart grid_alterego" "grid_smithsonian grid_12thman grid_pictograms" "grid_sugarfaced grid_sugarfaced grid_ikea"; }
-  .home_grids .grid_konahawaii,  
+  .home_grids .grid_konahawaii,
   .home_grids .grid_yama,
   .home_grids .grid_saltwater,
   .home_grids .grid_onemile,
@@ -284,7 +286,7 @@ p {
   .home_grids .grid_pictograms {
     height: 450px; }
   .home_grids .grid_konahawaii {
-    grid-area: grid_konahawaii; }
+	grid-area: grid_konahawaii; }
   .home_grids .grid_yama {
     grid-area: grid_yama; }
   .home_grids .grid_saltwater {
@@ -344,7 +346,7 @@ p {
   .home_grids_content.grid_ikea {
     margin-top: 30%; }
   .home_grids_content_one.one_konahawaii {
-    background: transparent url("src/images/konahawaii.png") no-repeat; ;}
+	background: transparent url("src/images/konahawaii.png") no-repeat; ;}
   .home_grids_content_one.one-a {
     background: transparent url("src/images/laurenyama.png") no-repeat; }
   .home_grids_content_one {
