@@ -333,6 +333,8 @@ p {
     margin-top: 30%; }
   .home_grids_content:nth-child(n+8) {
     margin-top: 30%; }
+  .home_grids_content.grid_dempsey {
+    margin-top: 30px; }
   .home_grids_content.grid_alterego {
     margin-top: 30px; }
   .home_grids_content.grid_sugarfaced,
