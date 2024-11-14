@@ -326,20 +326,17 @@ p {
   .home_grids .grid_hawaiisignature {
     grid-area: grid_hawaiisignature; }
   .home_grids_content {
-    margin-top: 30px; }
+    margin-top: 50px; }
   .home_grids_content:nth-child(-n+2) {
     margin-top: 0; }
-  .home_grids_content:nth-child(n+7) {
-    margin-top: 30%; }
-  .home_grids_content:nth-child(n+8) {
-    margin-top: 30%; }
-  .home_grids_content.grid_dempsey {
-    margin-top: 30px; }
-  .home_grids_content.grid_alterego {
+  .home_grids_content.grid_dempsey,
+  .home_grids_content.grid_hp {
     margin-top: 30px; }
   .home_grids_content.grid_sugarfaced,
   .home_grids_content.grid_HISflyers {
     margin-top: 14.5%; }
+  .home_grids_content.grid_HIStestimonials {
+    margin-top: 30%; }
   .home_grids_content.grid_smithsonian,
   .home_grids_content.grid_pictograms,
   .home_grids_content.grid_12thman,
